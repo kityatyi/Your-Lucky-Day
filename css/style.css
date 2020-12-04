@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background: lightcoral;
+}
+
+.app-title {
+  color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+}
+
+.main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  width: 666px;
+  height: 111px;
+  border: 3px solid crimson;
+  border-radius: 33px;
+  background: #ccc;
+}
+
+/* The button design */
+.btn-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  border: none;
+  outline: none;
+  width: 99px;
+  height: 33px;
+  background: crimson;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* The button design when hovered over */
+.btn-main:hover {
+  background: #dc143cb9;
+}
+
+/* The text message received */
+#lucky-day {
+  display: flex;
+  color: crimson;
+}
