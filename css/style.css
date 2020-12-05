@@ -4,62 +4,75 @@
   /* box-sizing: border-box; */
 }
 
-body {
-  font-family: Roboto, sans-serif;
-  background: lightcoral;
+.bg-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  font-family: "Homemade Apple", cursive;
+  /* background: linear-gradient(to right, brown, burlywood); */
+  background: url(../img/img1.jpg) center center/cover;
+  background-size: cover;
+  color: ;
 }
 
 .app-title {
-  color: crimson;
+  color: navajowhite;
+  opacity: 0.8;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 99px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px auto;
-}
-
-.main {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+  margin-top: 230px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .app-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px auto;
-  width: 666px;
-  height: 111px;
-  border: 3px solid crimson;
-  border-radius: 33px;
-  background: #ccc;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  height: 100px;
 }
 
 /* The button design */
 .btn-main {
+  font-family: "Share Tech Mono", monospace;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 575px;
   border: none;
   outline: none;
-  width: 99px;
-  height: 33px;
-  background: crimson;
+  width: 300px;
+  height: 100px;
+  border-radius: 33px;
+  background: navajowhite;
+  opacity: 0.8;
   text-decoration: none;
-  color: #fff;
+  font-size: 33px;
+  color: sienna;
   cursor: pointer;
 }
 
 /* The button design when hovered over */
 .btn-main:hover {
-  background: #dc143cb9;
+  background: burlywood;
 }
 
 /* The text message received */
 #lucky-day {
   display: flex;
-  color: crimson;
+  width: 960px;
+  margin-top: 550px;
+  color: sienna;
+  font-size: 99px;
 }

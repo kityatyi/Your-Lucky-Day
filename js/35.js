@@ -1,5 +1,5 @@
 function luckyDay() {
-  n = "Wanna know your lucky day?";
+  n = "";
   document.getElementById("lucky-day").innerText = n;
 }
 
@@ -27,5 +27,5 @@ function dayOfWeek() {
 
   document.getElementById("lucky-day").innerText = n;
 
-  setTimeout(luckyDay, 1666);
+  setTimeout(luckyDay, 3333);
 }
